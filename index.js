@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://nikhiljangde:ZTECounk3c9ODfjc@cluster0.jspkds3.mongodb.net/TaskManager')
+mongoose.connect('MONGODB_URI')
     .then(() => {
         console.log('Connected to MongoDB');
     }).catch((err) => {
